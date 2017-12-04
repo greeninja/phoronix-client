@@ -54,15 +54,15 @@
       <NoInternetCommunication>FALSE</NoInternetCommunication>
       <NoNetworkCommunication>FALSE</NoNetworkCommunication>
       <Timeout>20</Timeout>
-      <ProxyAddress>$PROXY_HOST</ProxyAddress>
-      <ProxyPort>$PROXY_PORT</ProxyPort>
+      <ProxyAddress></ProxyAddress>
+      <ProxyPort></ProxyPort>
     </Networking>
     <Server>
       <RemoteAccessPort>8080</RemoteAccessPort>
       <Password>Password123</Password>
       <WebSocketPort>8088</WebSocketPort>
       <AdvertiseServiceZeroConf>FALSE</AdvertiseServiceZeroConf>
-      <PhoromaticStorage>~/home/phoromatic/</PhoromaticStorage>
+      <PhoromaticStorage></PhoromaticStorage>
     </Server>
   </Options>
 </PhoronixTestSuite>
