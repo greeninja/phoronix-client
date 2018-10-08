@@ -1,6 +1,6 @@
 FROM centos:latest
 MAINTAINER Nick Campion <nick.campion@fasthosts.com>
-RUN yum install -y php-cli git vim lsof php-xml php-devel patch make bzip2 gcc gcc-c++ automake glibc-static xdg-utils epel-release; \
+RUN yum install -y php-cli git vim lsof php-xml php-devel patch make bzip2 gcc gcc-c++ automake glibc-static xdg-utils expat-devel epel-release; \
     yum install -y php-pdo supervisor net-tools ngrep; \
     git clone https://github.com/phoronix-test-suite/phoronix-test-suite.git; \
     cd phoronix-test-suite/; \

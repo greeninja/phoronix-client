@@ -54,8 +54,8 @@
       <NoInternetCommunication>FALSE</NoInternetCommunication>
       <NoNetworkCommunication>FALSE</NoNetworkCommunication>
       <Timeout>20</Timeout>
-      <ProxyAddress>100.64.0.31</ProxyAddress>
-      <ProxyPort>3128</ProxyPort>
+      <ProxyAddress></ProxyAddress>
+      <ProxyPort></ProxyPort>
     </Networking>
     <Server>
       <RemoteAccessPort>8080</RemoteAccessPort>
